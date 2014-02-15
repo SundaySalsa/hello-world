@@ -1,3 +1,5 @@
+#Dice simulation class
+
 class Die
 
   def initialize
@@ -26,8 +28,8 @@ a.cheat 6
 puts a.showing
 
 
-#dice = [Die.new, Die.new]
+dice = [Die.new, Die.new]
 
-#dice.each do |die|
-#  puts die.roll
-#end
+dice.each do |die|
+  puts die.roll
+end
